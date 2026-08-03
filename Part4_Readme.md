@@ -44,8 +44,8 @@ Before running this project, make sure you have:
 ## 💻 Example Output
 
 ```
-Enter your name : John
-John
+Enter your name : Mahdi
+Mahdi
 ```
 
 ## 📄 Code Overview

@@ -1,0 +1,12 @@
+float Lenght, width,area,perimeter;
+Console.WriteLine("Calculating the perimeter and area of ​​a rectangle ");
+Console.WriteLine("_______________________________________________________");
+Console.WriteLine();
+Console.Write("Please enter the length of the rectangle you want : ");
+Lenght = float.Parse(Console.ReadLine());
+Console.Write("Please enter the width of the rectangle you want : ");
+width = float.Parse(Console.ReadLine());
+area = Lenght * width;
+perimeter = 2 * (Lenght + width);
+Console.WriteLine("The area is equal to {0} AND  \n the perimeter is equal to {1}",area,perimeter);
+Console.ReadKey();
